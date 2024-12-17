@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Форма оқиғалары</h1>
+    <label for="name">Аты-жөні: </label>
+    <input type="text" id="ad" placeholder="Аты жөніңізді жазыңыз">
+    <p>енгізіп жатырсыз: <span id="engizu"></span></p>
+    <button>Жіберу</button>
+
+    <script>
+
+    
+    const namee = document.getElementById("ad");
+    const output = document.getElementById("engizu");
+    namee.addEventListener("input", function() {
+    output.textContent = namee.value;
+    });
+    
+    </script>
+</body>
+</html>
