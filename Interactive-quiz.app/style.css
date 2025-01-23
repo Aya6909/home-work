@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+QLD+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: rgb(231, 231, 231);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.question{
+    background-color: white;
+    padding: 30px;
+    box-shadow: -1px 2px 19px 1px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+}
+.question h3{
+    display: flex;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+.question div{
+    width: 900px;
+}
+.point{
+    background-color: rgba(161, 6, 161, 0.545);
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    border-radius: 999px;
+    font-size: 30px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin: 10px;
+    margin-top: 70px;
+}
+.cards button{
+    color: white;
+    padding: 30px;
+    border: none;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: rgb(192, 192, 3);
+}
+.green{
+    background-color: green;
+}
