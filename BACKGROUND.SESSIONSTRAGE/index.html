@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Tus tandau</h1>
+    Tus tanda:
+    <input type="color" name="" id="color">
+    <button onclick="saveData()">Tusi saqtau</button>
+    <button onclick="clearData()">Tazalau</button>
+
+    <script>
+        function saveData(){
+        const color = document.getElementById("color").value;
+
+        if (color){
+          sessionStorage.setItem("color", color);
+          document.body.style.backgroundColor = color;
+
+          alert("Saqtaldi!");
+        }else{
+          alert("Tus tanda!");
+        }
+      }
+
+      function clearData(){
+        sessionStorage.removeItem("color");
+        document.body.style.backgroundColor = 'white';
+
+        alert("tazalandi!");
+      }
+
+      window.onload = function(){
+        const tussaqtau = sessionStorage.getItem("color");
+
+        if(tussaqtau){
+        document.body.style.backgroundColor = tussaqtau;
+        document.getElementById("color").value = savedColor;
+        }
+       }
+
+    </script>
+
+</body>
+</html>
+
+
+
