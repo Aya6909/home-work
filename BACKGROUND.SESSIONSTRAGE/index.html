@@ -35,13 +35,9 @@
       }
 
       window.onload = function(){
-        const tussaqtau = sessionStorage.getItem("color");
-
-        if(tussaqtau){
-        document.body.style.backgroundColor = tussaqtau;
-        document.getElementById("color").value = savedColor;
-        }
-       }
+        const tussaqtau = sessionStorage.getItem("color")
+        tussaqtau && (document.body.style.backgroundColor = tussaqtau, document.getElementById("color").value = tussaqtau);
+      }
 
     </script>
 
