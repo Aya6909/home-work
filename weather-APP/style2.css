@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    margin: auto;
+    padding: auto;
+}
+.logo{
+    width: 60px; 
+}
+h3{
+    font-size: 50px;
+}
+.card{
+    background-color: rgba(128, 128, 128, 0.394);
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 90px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+label{
+    color: rgb(218, 213, 213);
+}
+button{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
