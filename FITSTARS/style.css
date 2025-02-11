@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lexend+Giga:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+AU+QLD+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: rgb(235, 235, 235);
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-family: "Poppins", serif;
+    position: relative;
+    box-shadow: 1px 4px 10px 0px rgba(0,0,0,0.75);
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+header button{
+    background-color: rgb(162, 252, 162);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 150px;
+}
+.logoOUT{
+    position: absolute;
+    right: 20px;
+}
+*{
+    margin: auto;
+    padding: auto;
+}
+.logoIMG{
+    width: 100px;
+}
+.reseptLink{
+    text-decoration: none;
+}
+.searchDIV{
+    text-align: center;
+    margin-top: 30px;
+    width: 800px;
+}
+.searchDIV input{
+    margin-top: 30px;
+    width: 300px;
+    padding: 6px;
+    position: relative;
+    background-color: rgb(219, 218, 218);
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.searchLOGO{
+    position: absolute;
+    top: 220px;
+    right: 420px;
+}
+.zavtraki{
+    margin-top: 40px;
+    width: 900px;
+}
+.zavtraki h4{
+    margin-left: 410px;
+    margin-bottom: 30px;
+}
+.foodIMGS img{
+    width: 160px;
+    border-radius:10px;
+}
+.foodIMGS{
+    width: fit-content;
+    align-items: center;
+    display: flex;
+}
+.foodIMGS div{
+    width: fit-content;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.card{
+    height: fit-content;
+}
+.card p{
+    color: rgb(143, 142, 142);
+    font-size: 15px;
+    padding-left: 5px;
+}
+.card h5{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
