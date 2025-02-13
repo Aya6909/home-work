@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+TZ+Guides&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+    text-align: center;
+}
+
+#tusTandau{
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.color-box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+header{
+    background-color: #a2d9ff;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background: #a2d9ff;
+    padding: 50px;
+    margin-top: -20px;
+    display: flex;
+    font-family: "Rethink Sans", serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wavy {
+    margin-top: 50px;
+}
+
+
+
+.webName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+}
+
+
+.navbar:hover {
+    color: rgb(90, 90, 250);
+}
+
+
+
+.navbar{
+    transition: 0.2s;
+}
+
+
+nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-family: "Playwrite GB S", serif;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+.color-display {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+h2 {
+    margin-top: 30px;
+}
+
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+button:hover {
+    background-color: #218838;
+}
+
+
+
+.gradient-box {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+    border-radius: 8px;
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+    top: 23px;
+}
